@@ -1,0 +1,270 @@
+// Import necessary styling for demo only (You dont need this)
+@import 'demo/ads.scss';
+@import 'demo/demo.scss';
+
+// Import variable
+@import 'vars.scss';
+
+
+body {
+    font-size: $root-font-size;
+    color: $text-color;
+    background-color: $background-color;
+    background: $grad-color-02;
+    background: linear-gradient(325deg, $grad-color-02 0%, $grad-color-01 100%);
+}
+
+// Begin pricing table styling
+.koolui-pribel-pat04 {
+    font-family: $custom-google-font;
+    padding: $gap * 2 0;
+    
+    // Pricing table item
+    .item {
+        border-radius: $item-border-radius;
+        padding: $gap;
+        margin-bottom: $gap;
+        position:relative;
+        overflow: hidden;
+        text-align: center;
+        background-color: $base-color;
+
+        // Button
+        .btn.btn-primary {
+            color: $base-color;
+            height: $button-height;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: .875rem;
+        }
+
+        &:after {
+            position: absolute;
+            width: $heading-circle-size;
+            height: $heading-circle-size;
+            content: "";
+            border-radius: $heading-circle-size;
+            left: 50%;
+            margin-left: -($heading-circle-size / 2);
+            top: -($heading-circle-size - $heading-circle-visible);
+            z-index: 0;
+            background-color: $heading-circle-bg;
+        }
+
+        &--01 {
+            // Typography
+            .item__heading {
+                h3 {
+                    color: $blue-item;
+                    &:before, &:after {
+                        background-color: $blue-item;
+                    }
+                }
+            }
+
+            // Pricing
+            .item__pricing {
+                p {
+                    color: $blue-item;
+                    small {
+                        color: $muted-text-color;
+                    }
+                }
+            }
+
+            // Button
+            .btn.btn-primary {
+                background-color: $blue-item;
+                border-color: $blue-item;
+                &:hover {
+                    background-color: darken($blue-item,5);
+                    border-color: darken($blue-item,5);
+                }
+            }
+        }
+
+        &--02 {
+            // Typography
+            .item__heading {
+                h3 {
+                    color: $yellow-item;
+                    &:before, &:after {
+                        background-color: $yellow-item;
+                    }
+                }
+            }
+
+            // Pricing
+            .item__pricing {
+                p {
+                    color: $yellow-item;
+                    small {
+                        color: $muted-text-color;
+                    }
+                }
+            }
+
+            // Button
+            .btn.btn-primary {
+                background-color: $yellow-item;
+                border-color: $yellow-item;
+                &:hover {
+                    background-color: darken($yellow-item,5);
+                    border-color: darken($yellow-item,5);
+                }
+            }
+        }
+
+        &--03 {
+            // Typography
+            .item__heading {
+                h3 {
+                    color: $red-item;
+                    &:before, &:after {
+                        background-color: $red-item;
+                    }
+                }
+            }
+
+            // Pricing
+            .item__pricing {
+                p {
+                    color: $red-item;
+                    small {
+                        color: $muted-text-color;
+                    }
+                }
+            }
+
+            // Button
+            .btn.btn-primary {
+                background-color: $red-item;
+                border-color: $red-item;
+                &:hover {
+                    background-color: darken($red-item,5);
+                    border-color: darken($red-item,5);
+                }
+            }
+        }
+
+        &--04 {
+            // Typography
+            .item__heading {
+                h3 {
+                    color: $blood-item;
+                    &:before, &:after {
+                        background-color: $blood-item;
+                    }
+                }
+            }
+
+            // Pricing
+            .item__pricing {
+                p {
+                    color: $blood-item;
+                    small {
+                        color: $muted-text-color;
+                    }
+                }
+            }
+
+            // Button
+            .btn.btn-primary {
+                background-color: $blood-item;
+                border-color: $blood-item;
+                &:hover {
+                    background-color: darken($blood-item,5);
+                    border-color: darken($blood-item,5);
+                }
+            }
+        }
+        
+        // Medium devices (tablets, 992px and up)
+        @media screen and (min-width: 992px) {
+            margin-bottom: 0;
+        }
+
+        // Item media (icon or image)
+        &__media {
+            width: $item-media-size;
+            height: $item-media-size;
+            margin: 0 auto $gap / 1.5;
+            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 9;
+            img {
+                width: auto;
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+
+        // Typography
+        &__heading {
+            h3 {
+                font-size: 1.25rem;
+                font-weight: 800;
+                line-height: 1.25rem;
+                margin: 0;
+                margin-bottom: $gap / 2;
+                position: relative;
+                z-index: 9;
+                &:before, &:after {
+                    position: absolute;
+                    width: $heading-strip-width;
+                    height: $heading-strip-height;
+                    content: "";
+                    top: 50%;
+                    margin-top: -($heading-strip-height / 2);
+                }
+                &:before {
+                    left: 0;
+                }
+                &:after {
+                    right: 0;
+                }
+            }
+        }
+
+        // Item content
+        &__content {
+            ul {
+                margin: 0;
+                padding: 0;
+                margin-bottom: $gap / 1.5;
+                list-style: none;
+                li {
+                    line-height: $list-item-height;
+                    color: $muted-text-color;
+                    margin: 0;
+                    font-size: .875rem;
+                }
+            }
+        }
+
+        // Pricing
+        &__pricing {
+            p {
+                margin-bottom: $gap * 1.5;
+                font-size: 2rem;
+                font-weight: 700;
+                line-height: 2.375rem;
+                position: relative;
+                z-index: 9;
+                span {
+                    font-weight: 400;
+                }
+                small {
+                    display: block;
+                    font-size: .75rem;
+                    line-height: .875rem;
+                    margin: 0;
+                }
+            }
+        }
+
+    }
+}

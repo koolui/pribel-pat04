@@ -1,0 +1,236 @@
+/*!
+ * pribel-pat04
+ * Free HTML Pricing Table - Bootstrap 4 Template #4
+ * git+https://github.com/koolui/pribel-pat04.git
+ * @author Kool UI Studio
+ * @version 1.0.0
+ * Copyright 2019. SEE LICENSE IN README.md licensed.
+ */
+.adscard {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 15px auto;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.5); }
+  .adscard:after {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    content: "Affiliate";
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 3px 5px;
+    border-radius: 0 5px;
+    font-size: 10px; }
+  .adscard--live {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .adscard__img {
+    border-radius: 3px; }
+    .adscard__img img {
+      width: 80px;
+      border-radius: 3px; }
+  .adscard__caption {
+    margin: 0;
+    line-height: 16px;
+    font-size: 14px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .adscard__caption a {
+      text-decoration: none;
+      color: #ffffff; }
+      .adscard__caption a:hover {
+        text-decoration: underline; }
+    .adscard__caption span {
+      display: block; }
+    .adscard__caption__secondary {
+      font-size: 12px;
+      margin-top: 5px; }
+      .adscard__caption__secondary > a {
+        color: rgba(255, 255, 255, 0.7); }
+
+.livedemo {
+  padding-top: 80px; }
+  .livedemo nav .form-inline .btn {
+    margin-right: 6px; }
+    .livedemo nav .form-inline .btn:last-child {
+      margin-right: 0; }
+  .livedemo .footerdemo {
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 30px;
+    color: #ffffff; }
+    .livedemo .footerdemo a {
+      color: #ffffff;
+      text-decoration: underline; }
+
+body {
+  font-size: 16px;
+  color: #222827;
+  background-color: #ffffff;
+  background: #FDBB2D;
+  background: -o-linear-gradient(125deg, #FDBB2D 0%, #22C1C3 100%);
+  background: linear-gradient(325deg, #FDBB2D 0%, #22C1C3 100%); }
+
+.koolui-pribel-pat04 {
+  font-family: "Barlow", sans-serif;
+  padding: 60px 0; }
+  .koolui-pribel-pat04 .item {
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color: #ffffff; }
+    .koolui-pribel-pat04 .item .btn.btn-primary {
+      color: #ffffff;
+      height: 44px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: .875rem; }
+    .koolui-pribel-pat04 .item:after {
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      content: "";
+      border-radius: 500px;
+      left: 50%;
+      margin-left: -250px;
+      top: -290px;
+      z-index: 0;
+      background-color: #F4F4F8; }
+    .koolui-pribel-pat04 .item--01 .item__heading h3 {
+      color: #124E78; }
+      .koolui-pribel-pat04 .item--01 .item__heading h3:before, .koolui-pribel-pat04 .item--01 .item__heading h3:after {
+        background-color: #124E78; }
+    .koolui-pribel-pat04 .item--01 .item__pricing p {
+      color: #124E78; }
+      .koolui-pribel-pat04 .item--01 .item__pricing p small {
+        color: #8898A7; }
+    .koolui-pribel-pat04 .item--01 .btn.btn-primary {
+      background-color: #124E78;
+      border-color: #124E78; }
+      .koolui-pribel-pat04 .item--01 .btn.btn-primary:hover {
+        background-color: #0f4062;
+        border-color: #0f4062; }
+    .koolui-pribel-pat04 .item--02 .item__heading h3 {
+      color: #F2BB05; }
+      .koolui-pribel-pat04 .item--02 .item__heading h3:before, .koolui-pribel-pat04 .item--02 .item__heading h3:after {
+        background-color: #F2BB05; }
+    .koolui-pribel-pat04 .item--02 .item__pricing p {
+      color: #F2BB05; }
+      .koolui-pribel-pat04 .item--02 .item__pricing p small {
+        color: #8898A7; }
+    .koolui-pribel-pat04 .item--02 .btn.btn-primary {
+      background-color: #F2BB05;
+      border-color: #F2BB05; }
+      .koolui-pribel-pat04 .item--02 .btn.btn-primary:hover {
+        background-color: #d9a804;
+        border-color: #d9a804; }
+    .koolui-pribel-pat04 .item--03 .item__heading h3 {
+      color: #D74E09; }
+      .koolui-pribel-pat04 .item--03 .item__heading h3:before, .koolui-pribel-pat04 .item--03 .item__heading h3:after {
+        background-color: #D74E09; }
+    .koolui-pribel-pat04 .item--03 .item__pricing p {
+      color: #D74E09; }
+      .koolui-pribel-pat04 .item--03 .item__pricing p small {
+        color: #8898A7; }
+    .koolui-pribel-pat04 .item--03 .btn.btn-primary {
+      background-color: #D74E09;
+      border-color: #D74E09; }
+      .koolui-pribel-pat04 .item--03 .btn.btn-primary:hover {
+        background-color: #bf4508;
+        border-color: #bf4508; }
+    .koolui-pribel-pat04 .item--04 .item__heading h3 {
+      color: #6E0E0A; }
+      .koolui-pribel-pat04 .item--04 .item__heading h3:before, .koolui-pribel-pat04 .item--04 .item__heading h3:after {
+        background-color: #6E0E0A; }
+    .koolui-pribel-pat04 .item--04 .item__pricing p {
+      color: #6E0E0A; }
+      .koolui-pribel-pat04 .item--04 .item__pricing p small {
+        color: #8898A7; }
+    .koolui-pribel-pat04 .item--04 .btn.btn-primary {
+      background-color: #6E0E0A;
+      border-color: #6E0E0A; }
+      .koolui-pribel-pat04 .item--04 .btn.btn-primary:hover {
+        background-color: #570b08;
+        border-color: #570b08; }
+    @media screen and (min-width: 992px) {
+      .koolui-pribel-pat04 .item {
+        margin-bottom: 0; } }
+    .koolui-pribel-pat04 .item__media {
+      width: 86px;
+      height: 86px;
+      margin: 0 auto 20px;
+      display: block;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      position: relative;
+      z-index: 9; }
+      .koolui-pribel-pat04 .item__media img {
+        width: auto;
+        max-width: 100%;
+        max-height: 100%; }
+    .koolui-pribel-pat04 .item__heading h3 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      line-height: 1.25rem;
+      margin: 0;
+      margin-bottom: 15px;
+      position: relative;
+      z-index: 9; }
+      .koolui-pribel-pat04 .item__heading h3:before, .koolui-pribel-pat04 .item__heading h3:after {
+        position: absolute;
+        width: 10px;
+        height: 3px;
+        content: "";
+        top: 50%;
+        margin-top: -1.5px; }
+      .koolui-pribel-pat04 .item__heading h3:before {
+        left: 0; }
+      .koolui-pribel-pat04 .item__heading h3:after {
+        right: 0; }
+    .koolui-pribel-pat04 .item__content ul {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 20px;
+      list-style: none; }
+      .koolui-pribel-pat04 .item__content ul li {
+        line-height: 28px;
+        color: #8898A7;
+        margin: 0;
+        font-size: .875rem; }
+    .koolui-pribel-pat04 .item__pricing p {
+      margin-bottom: 45px;
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 2.375rem;
+      position: relative;
+      z-index: 9; }
+      .koolui-pribel-pat04 .item__pricing p span {
+        font-weight: 400; }
+      .koolui-pribel-pat04 .item__pricing p small {
+        display: block;
+        font-size: .75rem;
+        line-height: .875rem;
+        margin: 0; }
